@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <% include ./partials/head %>
+    </head>
+    <body>
+
+        <header>
+            <% include ./partials/header %>    
+        </header>
+
+        <main>
+            <div class="container">
+
+                <div class="jumbotron text-center">
+                    <h1><span class="fa fa-lock"></span> Node Authentication</h1>
+
+
+                    <!-- <h2>Variable</h2>
+                    <p><%= tagline %></p>
+
+                    <h2>Loop</h2>
+                    <ul>
+                        <% drinks.forEach((drink) => { %>
+                            <li><%= drink.name %> - <%= drink.drunkness %></li>
+                        <% }); %>
+                    </ul> -->
+
+                    <p>Login or Register with:</p>
+
+                    <div class="landing-form-btns">
+                        <a href="/login" class="btn btn-login-home"><span class="fa fa-user"></span> Local Login</a>
+                        <a href="/signup" class="btn"><span class="fa fa-user"></span> Local Signup</a>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+        <footer>
+            <% include ./partials/footer %>
+        </footer>
+
+        <script src="https://use.fontawesome.com/3e1d7b509c.js"></script>
+    </body>   
+</html>    
